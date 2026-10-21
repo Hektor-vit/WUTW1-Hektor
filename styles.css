@@ -1,5 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
 h2{
     background-color: darkblue;
     color: lightcoral;
 
 }
+
+.warning{
+    background-color:darkred;
+    font-weight: bold;
+}
+
+
