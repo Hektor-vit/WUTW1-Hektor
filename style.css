@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #bbb;
+}
+
+h1,h2,h3{
+    background-color: #ddd;
+    color: #2c3e50;
+
+}
+
+.recept{
+    background-color: #787;
+    font-weight: bold ;
+
+}
+
+.huvudsida{
+    background-color: #787;
+    font-weight: bold ;
+
+}
+
+.gymnasie{
+    background-color: #787;
+    font-weight: bold ;
+
+}
+
+.warning{
+    background-color:darkred;
+    font-weight: bold;
+}
+
+
