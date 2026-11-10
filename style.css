@@ -7,12 +7,15 @@ body{
 h1,h2{
     background-color: #ddd;
     color: rgba(0 ,0,150,0.5);
+    width: 175px ;
+     
 
 }
 
 .recept{
     background-color: #787;
     font-weight: bold ;
+    width:  ;
 
 }
 
@@ -25,21 +28,31 @@ h1,h2{
 .gymnasie{
     background-color: #787;
     font-weight: bold ;
+    width: 305px ;
 
 }
 
 .intressen{
     font-family: Georgia, Tahoma, sans-serif;
-    color: rgb( 0, 150, 0);   
+    color: rgb( 0, 150, 0);  
+    width: 280px; 
 }
 
 .inte{
     font-family: Georgia, Tahoma, sans-serif;
     color: rgb( 150, 0, 0);
+    width: 250px ;
 }
 .warning{
     background-color:darkred;
     font-weight: bold;
+}
+
+.profil-box{
+    width: 600px ;
+    padding: 30px ;
+    border: 7px solid #787;
+    margin: 30px ;
 }
 
 
