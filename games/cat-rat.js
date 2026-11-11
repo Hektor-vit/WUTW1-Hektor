@@ -73,11 +73,17 @@ function draw() {
     }
   
   
-    fill("black");
+    fill("yellow");
     circle(musX, musY, mouseSize);
   
-    fill("brown");
+    fill("black");
     circle(catX, catY, catSize);
+     triangle(catX-catSize/3, catY-catSize/3 , catX, catY-catSize/3, catX-catSize/4, catY-3*catSize/4);
+     triangle(catX+catSize/3, catY-catSize/3 , catX, catY-catSize/3, catX+catSize/4, catY-3*catSize/4);
+     fill("red");
+     triangle(catX-catSize/8, catY, catX-catSize/12, catY-catSize/8, catX-catSize/3, catY-catSize/6);
+     triangle(catX+catSize/8, catY, catX+catSize/12 , catY-catSize/8, catX+catSize/3, catY-catSize/6);
+
     
   } else if(gameState === "GAMEOVER"){
     text("GAMEOVER", width / 2, height / 2);
