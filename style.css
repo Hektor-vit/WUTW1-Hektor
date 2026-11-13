@@ -1,3 +1,6 @@
+
+*{box-sizing: border-box;}
+
 body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,41 +10,44 @@ body{
 h1,h2{
     background-color: #ddd;
     color: rgba(0 ,0,150,0.5);
-    width: 175px ;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 2rem;
      
 
 }
 
-.recept{
-    background-color: #787;
-    font-weight: bold ;
-    width:  ;
+.gymnasie{
+    background-color: #cda;
+    border-radius: 2rem;
+    padding: 10px;
 
 }
 
 .huvudsida{
-    background-color: #787;
-    font-weight: bold ;
+    background-color: #cda;
+    border-radius: 2rem;
+    padding: 10px;
+}
+.recept{
+    background-color: #cda;
+    width: fit-content;
+    border-radius: 2rem;
+    padding: 10px;
+
+
 
 }
-
-.gymnasie{
-    background-color: #787;
-    font-weight: bold ;
-    width: 305px ;
-
-}
-
 .intressen{
     font-family: Georgia, Tahoma, sans-serif;
     color: rgb( 0, 150, 0);  
-    width: 280px; 
+    width: fit-content; 
 }
 
 .inte{
     font-family: Georgia, Tahoma, sans-serif;
     color: rgb( 150, 0, 0);
-    width: 250px ;
+    width: fit-content ;
 }
 .warning{
     background-color:darkred;
@@ -49,10 +55,35 @@ h1,h2{
 }
 
 .profil-box{
-    width: 600px ;
+    background-color: #fff;
+    width: fit-content ;
     padding: 30px ;
     border: 7px solid #787;
     margin: 30px ;
+    border-radius: 2rem ;
+}
+
+.extra-profil{
+    background-color: #787;
+    font-weight: bold ;
+    width: fit-content;
+    padding: 30px;
+    border: 7px solid #abc;
+    margin: 30px;
+    border-radius: 2rem;
+    
+
+    
+}
+
+.run{
+    border: 7px solid#787;
+    border-radius: 2rem;
+}
+
+.lasagne{
+    border:7px solid #787;
+    border-radius: 2rem;
 }
 
 
