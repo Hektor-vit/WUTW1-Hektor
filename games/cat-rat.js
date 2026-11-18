@@ -15,7 +15,6 @@ let musY = 0;
 
 let gameState = "START";
 
-
 function setup() {
   createCanvas(800, 800);
 }
@@ -83,7 +82,7 @@ function draw() {
      fill("red");
      triangle(catX-catSize/8, catY, catX-catSize/12, catY-catSize/8, catX-catSize/3, catY-catSize/6);
      triangle(catX+catSize/8, catY, catX+catSize/12 , catY-catSize/8, catX+catSize/3, catY-catSize/6);
-
+    
     
   } else if(gameState === "GAMEOVER"){
     text("GAMEOVER", width / 2, height / 2);
