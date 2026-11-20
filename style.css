@@ -22,6 +22,7 @@ h1,h2{
     background-color: #cda;
     border-radius: 2rem;
     padding: 10px;
+    text-decoration: none;
 
 }
 
@@ -29,14 +30,14 @@ h1,h2{
     background-color: #cda;
     border-radius: 2rem;
     padding: 10px;
+    text-decoration: none;
 }
 .recept{
     background-color: #cda;
     width: fit-content;
     border-radius: 2rem;
     padding: 10px;
-
-
+    text-decoration: none;
 
 }
 .intressen{
@@ -64,11 +65,13 @@ h1,h2{
     border-radius: 2rem ;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
     
 
 }
 
-.extra-profil{
+.footer{
+    display: flex;
     background-color: #787;
     font-weight: bold ;
     width: fit-content;
@@ -76,8 +79,13 @@ h1,h2{
     border: 7px solid #abc;
     margin: 30px;
     border-radius: 2rem;  
-    
-    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-;
+
+
 }
 
 .run{
