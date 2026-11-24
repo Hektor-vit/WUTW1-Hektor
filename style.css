@@ -19,9 +19,14 @@ h1,h2{
     background-color: var(--primary-bg-color);
     color: rgba(0 ,0,150,0.5);
     width: fit-content;
+    margin: 5px;
     padding: 10px;
     border-radius: 2rem;
 
+}
+p{
+    margin: 5px;
+    padding: 10px;  
 }
 
 .gymnasie{
@@ -93,6 +98,7 @@ h1,h2{
 
     background-color:var(--primary-color); 
     padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 .nav-links > div{
@@ -111,7 +117,7 @@ h1,h2{
     min-height: fit-content;
     max-height: 7rem;
 
-    background-color: white;
+    background-color: var(--primary-bg-color);
 
     border-radius: 1rem;
 }
