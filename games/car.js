@@ -18,7 +18,7 @@ let d;
 
 let crashed= false;
 
-let gamestate="START"
+let gameState="START"
 
 
 
@@ -46,8 +46,7 @@ function draw(){
         text("TRYCK PÅ SPACE FÖR ATT STARTA", width / 2, 500 );
         textSize(50);
     
-
-    } else if(gamestate === "PLAY"){
+    } else if(gameState === "PLAY"){
     playerYpos = constrain(playerYpos,(height/2)-roadWidth/2.5,(height/2) + roadWidth/2.5);
     
     
@@ -96,11 +95,18 @@ function draw(){
     d=dist(playerXpos, playerYpos, enemyXpos, enemyYpos);
     if(d< playerWidth){
         playerTurnSpeed =0;
-        gamestate= "GAMEOVER";
+        gameState= "GAMEOVER";
+    }
+} else if( gameState === "GAMEOVER"){
+    text("GAMEOVER", width / 2, height /2);
+}
+}
+
+function keyPressed(){
+    if(keyCode === 32 ){
+        gameState = "PLAY";
     }
 }
 
 
 
-
-}

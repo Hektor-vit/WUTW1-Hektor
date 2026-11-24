@@ -1,20 +1,26 @@
 
 *{box-sizing: border-box;}
 
+:root{
+    --primary-bg-color: #ddd;   
+    --primary-color: #49bc9b;
+    --secondary-bg-color: #9dbddb;
+    --text-color: #0a1b16;
+    --accent-color: #7790cd;
+}
+
 body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #bbb;
+    background-color: var(--primary-bg-color);
 }
 
 h1,h2{
-    background-color: #ddd;
+    background-color: var(--primary-bg-color);
     color: rgba(0 ,0,150,0.5);
     width: fit-content;
     padding: 10px;
     border-radius: 2rem;
-    
-     
 
 }
 
@@ -57,10 +63,10 @@ h1,h2{
 }
 
 .profil-box{
-    background-color: #fff;
+    background-color: var(--primary-color);
     width: fit-content ;
     padding: 30px ;
-    border: 7px solid #787;
+    border: 7px solid var(--secondary-bg-color);
     margin: 30px ;
     border-radius: 2rem ;
     display: flex;
@@ -72,10 +78,10 @@ h1,h2{
 
 .footer{
     display: flex;
-    background-color: #787;
+    background-color: var(--secondary-bg-color);
     font-weight: bold;
     padding: 1rem;
-    border: 7px solid #abc;
+    border: 7px solid var(--accent-color);
     margin: 30px;
     border-radius: 2rem;  
 }
@@ -85,7 +91,7 @@ h1,h2{
     width: 100%;
     justify-content: space-evenly;
 
-    background-color: rgba(255, 255, 255, 0.147); 
+    background-color:var(--primary-color); 
     padding: 0.5rem;
 }
 
@@ -113,12 +119,12 @@ h1,h2{
 
 
 .run{
-    border: 7px solid#787;
+    border: 7px solid var(--secondary-bg-color);
     border-radius: 2rem;  
 }
 
 .lasagne{
-    border:7px solid #787;
+    border:7px solid var(--secondary-bg-color);
     border-radius: 2rem;
 }
 
