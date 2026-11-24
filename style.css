@@ -73,9 +73,8 @@ h1,h2{
 .footer{
     display: flex;
     background-color: #787;
-    font-weight: bold ;
-    width: fit-content;
-    padding: 30px;
+    font-weight: bold;
+    padding: 1rem;
     border: 7px solid #abc;
     margin: 30px;
     border-radius: 2rem;  
@@ -83,10 +82,35 @@ h1,h2{
 
 .nav-links{
     display: flex;
-    justify-content: space-;
+    width: 100%;
+    justify-content: space-evenly;
 
-
+    background-color: rgba(255, 255, 255, 0.147); 
+    padding: 0.5rem;
 }
+
+.nav-links > div{
+    display: flex;
+    flex-direction: column;
+
+    word-wrap: break-word;
+    
+    max-width: 20rem;
+    padding: 1rem;
+
+    text-align: center;
+
+    justify-content: center;
+
+    min-height: fit-content;
+    max-height: 7rem;
+
+    background-color: white;
+
+    border-radius: 1rem;
+}
+
+
 
 .run{
     border: 7px solid#787;
