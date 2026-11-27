@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html -->
+<html lang="sv"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox-övning: Sidhuvuden &amp; Sidfötter</title>
+  <link rel="stylesheet" href="flexbox-ovning-css/flexbox-ovning.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <div class="intro">
+      <h1>Flexbox-övning: Sidhuvuden &amp; Sidfötter</h1>
+      <p>
+        Din uppgift är att öppna <strong>style.css</strong> och skriva CSS-regler för de fyra komponenterna nedan.
+        Du behöver inte ändra något i HTML-filen – alla klassnamn finns redan på plats!
+      </p>
+    </div>
+
+    <!-- =================================================================
+         ÖVNING 1: KLASSISK NAVBAR
+         ================================================================= -->
+    <section class="exercise">
+      <div class="instructions">
+        <h2>1. Klassisk Navbar (Logga vänster, länkar höger)</h2>
+        <ul>
+          <li>Gör <code>.header-1</code> till en flex-container.</li>
+          <li>Tryck loggan längst till vänster och länklistan längst till höger (<code>justify-content</code>).</li>
+          <li>Centrera innehållet vertikalt (<code>align-items</code>).</li>
+          <li>Gör även <code>.nav-list-1</code> till en flex-container, ta bort listpunkterna (<code>list-style: none</code>) och lägg <code>20px</code> mellanrum (<code>gap</code>) mellan länkarna.</li>
+        </ul>
+      </div>
+
+      <header class="header-1">
+        <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#" class="logo">NordicWeb</a>
+        <nav>
+          <ul class="nav-list-1">
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Hem</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Tjänster</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Om oss</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <!-- =================================================================
+         ÖVNING 2: CENTRERAD HEADER (STAPEL)
+         ================================================================= -->
+    <section class="exercise">
+      <div class="instructions">
+        <h2>2. Centrerad Header (Logga överst, meny centrerad under)</h2>
+        <ul>
+          <li>Gör <code>.header-2</code> till en flex-container där barnen staplas på höjden (<code>flex-direction: column</code>).</li>
+          <li>Centrera både loggan och menyn horisontellt (<code>align-items: center</code>) och ge dem <code>15px</code> mellanrum (<code>gap</code>).</li>
+          <li>Lägg länkarna i <code>.nav-list-2</code> på en horisontell rad med <code>24px</code> mellanrum och låt dem radbrytas om skärmen blir smal (<code>flex-wrap: wrap</code> + <code>justify-content: center</code>).</li>
+        </ul>
+      </div>
+
+      <header class="header-2">
+        <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#" class="logo">Kaffemaskineriet</a>
+        <nav>
+          <ul class="nav-list-2">
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Bönor</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Bryggare</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Prenumeration</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Våra caféer</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <!-- =================================================================
+         ÖVNING 3: TRE-DELAD HEADER MED ACTION-KNAPP
+         ================================================================= -->
+    <section class="exercise">
+      <div class="instructions">
+        <h2>3. Tre-delad Header (Logga, centrerad meny &amp; knapp)</h2>
+        <ul>
+          <li>Gör <code>.header-3</code> till en flex-container med tre tydliga delar: loggan, <code>&lt;nav&gt;</code> och knappen <code>.btn-cta</code>.</li>
+          <li>Fördela de tre delarna över hela bredden (<code>justify-content: space-between</code>) och centrera dem i höjdled (<code>align-items: center</code>).</li>
+          <li>Lägg länkarna i <code>.nav-list-3</code> på rad med <code>20px</code> mellanrum.</li>
+        </ul>
+      </div>
+
+      <header class="header-3">
+        <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#" class="logo">StudioForma</a>
+        <nav>
+          <ul class="nav-list-3">
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Projekt</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Process</a></li>
+            <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Team</a></li>
+          </ul>
+        </nav>
+        <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#" class="btn-cta">Boka möte</a>
+      </header>
+    </section>
+
+    <!-- =================================================================
+         ÖVNING 4: MODERN SIDFOT MED KOLUMNER & COPYRIGHT-RAD
+         ================================================================= -->
+    <section class="exercise">
+      <div class="instructions">
+        <h2>4. Sidfot med kolumner och nedersta rad</h2>
+        <ul>
+          <li>Gör <code>.footer-columns</code> till en flex-container med <code>30px</code> mellanrum och <code>flex-wrap: wrap</code> så att kolumnerna hoppar ned på smal skärm.</li>
+          <li>Ge varje <code>.footer-col</code> egenskapen <code>flex: 1</code> och <code>min-width: 180px</code> så att de delar lika på utrymmet.</li>
+          <li>Gör den nedersta raden <code>.footer-bottom</code> till en flex-container som placerar copyright-texten till vänster och integritetslänkarna till höger, centrerat i höjdled.</li>
+        </ul>
+      </div>
+
+      <footer class="footer-4">
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>Om oss</h3>
+            <p>Vi bygger tillgängliga och snabba webbplatser med modern standardkod.</p>
+          </div>
+          <div class="footer-col">
+            <h3>Snabblänkar</h3>
+            <ul class="footer-links">
+              <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Start</a></li>
+              <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Portfolio</a></li>
+              <li><a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Karriär</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Kontakt</h3>
+            <p>hej@nordicweb.se<br>Storgatan 12, Stockholm</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 NordicWeb AB</p>
+          <div class="legal-links">
+            <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Integritetspolicy</a>
+            <a href="https://ntitobias.github.io/wutv2627/ovning/flexbox-ovning.html#">Cookies</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
+
+
+</body></html>

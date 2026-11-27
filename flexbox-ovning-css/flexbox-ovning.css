@@ -1,0 +1,198 @@
+/* =====================================================================
+   GRUNDSTIL FÖR ÖVNINGSSIDAN (Rör helst inte denna del)
+   ===================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  margin: 0;
+  padding: 30px 20px;
+  line-height: 1.5;
+}
+
+.page-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.exercise {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 36px;
+}
+
+.instructions {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #334155;
+}
+
+.instructions h2 {
+  margin-top: 0;
+  color: #38bdf8;
+  font-size: 1.25rem;
+}
+
+.instructions code {
+  background-color: #0f172a;
+  color: #7dd3fc;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Färdiga färger och typografi för komponenterna */
+header, footer {
+  background-color: #0f172a;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 20px 28px;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #38bdf8;
+}
+
+.btn-cta {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-cta:hover {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+
+.footer-col h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.footer-col p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a,
+.legal-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover,
+.legal-links a:hover {
+  color: #38bdf8;
+}
+
+.footer-bottom {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #334155;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+
+/* =====================================================================
+   ELEVENS KOD: SKRIV DIN FLEXBOX-CSS HÄR NEDANFÖR!
+   ===================================================================== */
+
+/* --- ÖVNING 1: Klassisk Navbar --- */
+.header-1 {
+display: flex;
+justify-content: space-between ;
+align-items: center;
+
+}
+
+.nav-list-1 {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border:#2563eb solid 2px;
+  border-radius: 2rem;
+  gap: 20px;
+
+}
+
+
+/* --- ÖVNING 2: Centrerad Header --- */
+.header-2 {
+
+}
+
+.nav-list-2 {
+
+
+}
+
+
+/* --- ÖVNING 3: Tre-delad Header --- */
+.header-3 {
+
+}
+
+.nav-list-3 {
+
+}
+
+
+/* --- ÖVNING 4: Sidfot --- */
+.footer-columns {
+
+}
+
+.footer-col {
+
+}
+
+.footer-bottom {
+
+}
+
+.legal-links {
+
+}

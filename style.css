@@ -95,7 +95,6 @@ p{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-
     background-color:var(--primary-color); 
     padding: 0.5rem;
     border-radius: 1rem;
@@ -104,21 +103,14 @@ p{
 .nav-links > div{
     display: flex;
     flex-direction: column;
-
     word-wrap: break-word;
-    
     max-width: 20rem;
     padding: 1rem;
-
     text-align: center;
-
     justify-content: center;
-
     min-height: fit-content;
     max-height: 7rem;
-
     background-color: var(--primary-bg-color);
-
     border-radius: 1rem;
 }
 
